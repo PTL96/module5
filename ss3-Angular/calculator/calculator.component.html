@@ -1,0 +1,11 @@
+<h1>Calculator</h1>
+<label style="margin-left: 15px">Firth Number:</label>
+<input [(ngModel)]="firthNumber"><br><br>
+<button style="margin-left: 120px" (click)="sum($event)">+</button>
+<button (click)="subtraction($event)">-</button>
+<button (click)="multiplication($event)">*</button>
+<button (click)="division($event)">/</button><br><br>
+<label>Second Number:</label>
+<input [(ngModel)]="secondNumber"><br><br>
+<span>Result: {{result}} </span>
+

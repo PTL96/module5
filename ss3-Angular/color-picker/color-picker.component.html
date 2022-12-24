@@ -1,0 +1,8 @@
+<h1>Chose Color</h1>
+<input type = "range" min="0" max="255" [(ngModel)]="r" (change)="setColor()">
+<input type = "range" min="0" max="255" [(ngModel)]="g" (change)="setColor()">
+<input type = "range" min="0" max="255" [(ngModel)]="b" (change)="setColor()">
+
+<div class="mau" [style.background-color]="rgb"  >
+
+</div>
